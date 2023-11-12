@@ -60,7 +60,7 @@ class HelpPageController: UIViewController {
 
         let app = UIApplication.shared
 
-        guard let number = URL(string: "tel://" + "6696094392"), app.canOpenURL(number) else {
+        guard let number = URL(string: "tel://" + "6502848604"), app.canOpenURL(number) else {
             return
         }
         
