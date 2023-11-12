@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D9F456EB-E683-4242-BD03-F102AEF20AEF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73F858BF-6822-4F81-AAD4-E3BE09F158F4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeuraCare/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "handleAppRefreshTask(task:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73F858BF-6822-4F81-AAD4-E3BE09F158F4 - 39e0fa41c877be31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NeuraCare.AppDelegate.handleAppRefreshTask(task: __C.BGAppRefreshTask) -&gt; ()"
+                  moduleName = "NeuraCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Yajurva/Desktop/NeuraCare/NeuraCare/NeuraCare/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "73F858BF-6822-4F81-AAD4-E3BE09F158F4 - 39e0fa41c877be52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NeuraCare.AppDelegate.handleAppRefreshTask(task: __C.BGAppRefreshTask) -&gt; ()"
+                  moduleName = "NeuraCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Yajurva/Desktop/NeuraCare/NeuraCare/NeuraCare/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "73F858BF-6822-4F81-AAD4-E3BE09F158F4 - 39e0fa41c877be52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NeuraCare.AppDelegate.handleAppRefreshTask(task: __C.BGAppRefreshTask) -&gt; ()"
+                  moduleName = "NeuraCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Yajurva/Desktop/NeuraCare/NeuraCare/NeuraCare/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E3DE28A-3BDD-45AE-8C61-C28D6F8D6CFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeuraCare/Controller/BucketListController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

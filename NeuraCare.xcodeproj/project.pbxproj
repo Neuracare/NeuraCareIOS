@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D49D4252B003B51006AE7CC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D49D4242B003B51006AE7CC /* MainViewController.swift */; };
+		0D53CA452B002A0200952D44 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D53CA442B002A0200952D44 /* LocationManager.swift */; };
+		0D66DDED2B0000BD00A02B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66DDEC2B0000BD00A02B4D /* AppDelegate.swift */; };
+		0D66DDEF2B0000BD00A02B4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66DDEE2B0000BD00A02B4D /* SceneDelegate.swift */; };
+		0D66DDF42B0000BD00A02B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D66DDF22B0000BD00A02B4D /* Main.storyboard */; };
+		0D66DDF72B0000BD00A02B4D /* NeuraCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D66DDF52B0000BD00A02B4D /* NeuraCare.xcdatamodeld */; };
+		0D66DDF92B0000BE00A02B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D66DDF82B0000BE00A02B4D /* Assets.xcassets */; };
+		0D66DDFC2B0000BE00A02B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D66DDFA2B0000BE00A02B4D /* LaunchScreen.storyboard */; };
+		0D66DE072B000BED00A02B4D /* TaskManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66DE062B000BED00A02B4D /* TaskManagerController.swift */; };
+		0D6F09F62B00ADB100373788 /* HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F09F52B00ADB100373788 /* HealthKit.swift */; };
+		0DACD9DB2B00428F00EC2F71 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9DA2B00428F00EC2F71 /* TabBarController.swift */; };
+		0DACD9DD2B004BCE00EC2F71 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9DC2B004BCE00EC2F71 /* NotificationCenter.swift */; };
+		0DACD9DF2B004BDF00EC2F71 /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9DE2B004BDF00EC2F71 /* BucketList.swift */; };
+		0DACD9E12B004BF500EC2F71 /* Memories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9E02B004BF500EC2F71 /* Memories.swift */; };
+		0DACD9E32B004C1F00EC2F71 /* HelpPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9E22B004C1F00EC2F71 /* HelpPageController.swift */; };
+		0DACD9E72B004C6200EC2F71 /* BucketListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9E62B004C6200EC2F71 /* BucketListController.swift */; };
+		0DACD9E92B004C9B00EC2F71 /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DACD9E82B004C9B00EC2F71 /* MemoriesViewController.swift */; };
+		0DB1FFF12B0062A500CCF0DE /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1FFEF2B0062A500CCF0DE /* NotificationTableViewCell.swift */; };
+		0DB1FFF22B0062A500CCF0DE /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1FFF02B0062A500CCF0DE /* NotificationTableViewCell.xib */; };
+		0DB1FFF42B0062E300CCF0DE /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1FFF32B0062E300CCF0DE /* Structs.swift */; };
+		0DB1FFF62B00647F00CCF0DE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1FFF52B00647F00CCF0DE /* NotificationController.swift */; };
+		0DB1FFF82B006D1B00CCF0DE /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1FFF72B006D1B00CCF0DE /* HTTP.swift */; };
+		0DB1FFFB2B0088D700CCF0DE /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1FFF92B0088D700CCF0DE /* TodoTableViewCell.swift */; };
+		0DB1FFFC2B0088D700CCF0DE /* TodoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DB1FFFA2B0088D700CCF0DE /* TodoTableViewCell.xib */; };
+		0DE76AC42B0013CB0076058F /* LocationManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE76AC32B0013CA0076058F /* LocationManagerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D49D4242B003B51006AE7CC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D53CA442B002A0200952D44 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0D66DDE92B0000BD00A02B4D /* NeuraCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D66DDEC2B0000BD00A02B4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D66DDEE2B0000BD00A02B4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D66DDF32B0000BD00A02B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D66DDF62B0000BD00A02B4D /* NeuraCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeuraCare.xcdatamodel; sourceTree = "<group>"; };
+		0D66DDF82B0000BE00A02B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D66DDFB2B0000BE00A02B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D66DDFD2B0000BE00A02B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D66DE062B000BED00A02B4D /* TaskManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerController.swift; sourceTree = "<group>"; };
+		0D6F09F42B00ABE300373788 /* NeuraCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeuraCare.entitlements; sourceTree = "<group>"; };
+		0D6F09F52B00ADB100373788 /* HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit.swift; sourceTree = "<group>"; };
+		0DACD9DA2B00428F00EC2F71 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0DACD9DC2B004BCE00EC2F71 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		0DACD9DE2B004BDF00EC2F71 /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
+		0DACD9E02B004BF500EC2F71 /* Memories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memories.swift; sourceTree = "<group>"; };
+		0DACD9E22B004C1F00EC2F71 /* HelpPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPageController.swift; sourceTree = "<group>"; };
+		0DACD9E62B004C6200EC2F71 /* BucketListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListController.swift; sourceTree = "<group>"; };
+		0DACD9E82B004C9B00EC2F71 /* MemoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		0DB1FFEF2B0062A500CCF0DE /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		0DB1FFF02B0062A500CCF0DE /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		0DB1FFF32B0062E300CCF0DE /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		0DB1FFF52B00647F00CCF0DE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0DB1FFF72B006D1B00CCF0DE /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		0DB1FFF92B0088D700CCF0DE /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
+		0DB1FFFA2B0088D700CCF0DE /* TodoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoTableViewCell.xib; sourceTree = "<group>"; };
+		0DE76AC32B0013CA0076058F /* LocationManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D66DDE62B0000BD00A02B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D66DDE02B0000BD00A02B4D = {
+			isa = PBXGroup;
+			children = (
+				0D66DDEB2B0000BD00A02B4D /* NeuraCare */,
+				0D66DDEA2B0000BD00A02B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D66DDEA2B0000BD00A02B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D66DDE92B0000BD00A02B4D /* NeuraCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D66DDEB2B0000BD00A02B4D /* NeuraCare */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F09F42B00ABE300373788 /* NeuraCare.entitlements */,
+				0D66DE032B00014100A02B4D /* Model */,
+				0D66DE042B00014900A02B4D /* View */,
+				0D66DE052B00015000A02B4D /* Controller */,
+				0D66DDEE2B0000BD00A02B4D /* SceneDelegate.swift */,
+				0D66DDEC2B0000BD00A02B4D /* AppDelegate.swift */,
+				0D66DDF82B0000BE00A02B4D /* Assets.xcassets */,
+				0D66DDFD2B0000BE00A02B4D /* Info.plist */,
+				0D66DDF52B0000BD00A02B4D /* NeuraCare.xcdatamodeld */,
+			);
+			path = NeuraCare;
+			sourceTree = "<group>";
+		};
+		0D66DE032B00014100A02B4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D53CA442B002A0200952D44 /* LocationManager.swift */,
+				0DACD9DC2B004BCE00EC2F71 /* NotificationCenter.swift */,
+				0DACD9DE2B004BDF00EC2F71 /* BucketList.swift */,
+				0DACD9E02B004BF500EC2F71 /* Memories.swift */,
+				0DB1FFF32B0062E300CCF0DE /* Structs.swift */,
+				0DB1FFF72B006D1B00CCF0DE /* HTTP.swift */,
+				0D6F09F52B00ADB100373788 /* HealthKit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D66DE042B00014900A02B4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D66DDF22B0000BD00A02B4D /* Main.storyboard */,
+				0D66DDFA2B0000BE00A02B4D /* LaunchScreen.storyboard */,
+				0DB1FFF02B0062A500CCF0DE /* NotificationTableViewCell.xib */,
+				0DB1FFFA2B0088D700CCF0DE /* TodoTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D66DE052B00015000A02B4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0DB1FFF92B0088D700CCF0DE /* TodoTableViewCell.swift */,
+				0DB1FFEF2B0062A500CCF0DE /* NotificationTableViewCell.swift */,
+				0D66DE062B000BED00A02B4D /* TaskManagerController.swift */,
+				0DE76AC32B0013CA0076058F /* LocationManagerController.swift */,
+				0D49D4242B003B51006AE7CC /* MainViewController.swift */,
+				0DACD9DA2B00428F00EC2F71 /* TabBarController.swift */,
+				0DACD9E22B004C1F00EC2F71 /* HelpPageController.swift */,
+				0DACD9E62B004C6200EC2F71 /* BucketListController.swift */,
+				0DACD9E82B004C9B00EC2F71 /* MemoriesViewController.swift */,
+				0DB1FFF52B00647F00CCF0DE /* NotificationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D66DDE82B0000BD00A02B4D /* NeuraCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D66DE002B0000BE00A02B4D /* Build configuration list for PBXNativeTarget "NeuraCare" */;
+			buildPhases = (
+				0D66DDE52B0000BD00A02B4D /* Sources */,
+				0D66DDE62B0000BD00A02B4D /* Frameworks */,
+				0D66DDE72B0000BD00A02B4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuraCare;
+			productName = NeuraCare;
+			productReference = 0D66DDE92B0000BD00A02B4D /* NeuraCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D66DDE12B0000BD00A02B4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0D66DDE82B0000BD00A02B4D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D66DDE42B0000BD00A02B4D /* Build configuration list for PBXProject "NeuraCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D66DDE02B0000BD00A02B4D;
+			productRefGroup = 0D66DDEA2B0000BD00A02B4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D66DDE82B0000BD00A02B4D /* NeuraCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D66DDE72B0000BD00A02B4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB1FFF22B0062A500CCF0DE /* NotificationTableViewCell.xib in Resources */,
+				0D66DDFC2B0000BE00A02B4D /* LaunchScreen.storyboard in Resources */,
+				0D66DDF92B0000BE00A02B4D /* Assets.xcassets in Resources */,
+				0DB1FFFC2B0088D700CCF0DE /* TodoTableViewCell.xib in Resources */,
+				0D66DDF42B0000BD00A02B4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D66DDE52B0000BD00A02B4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D66DDF72B0000BD00A02B4D /* NeuraCare.xcdatamodeld in Sources */,
+				0DACD9DD2B004BCE00EC2F71 /* NotificationCenter.swift in Sources */,
+				0DACD9E72B004C6200EC2F71 /* BucketListController.swift in Sources */,
+				0DB1FFFB2B0088D700CCF0DE /* TodoTableViewCell.swift in Sources */,
+				0DACD9E32B004C1F00EC2F71 /* HelpPageController.swift in Sources */,
+				0DB1FFF12B0062A500CCF0DE /* NotificationTableViewCell.swift in Sources */,
+				0D66DDED2B0000BD00A02B4D /* AppDelegate.swift in Sources */,
+				0DACD9DB2B00428F00EC2F71 /* TabBarController.swift in Sources */,
+				0DACD9E92B004C9B00EC2F71 /* MemoriesViewController.swift in Sources */,
+				0DACD9DF2B004BDF00EC2F71 /* BucketList.swift in Sources */,
+				0DB1FFF82B006D1B00CCF0DE /* HTTP.swift in Sources */,
+				0D53CA452B002A0200952D44 /* LocationManager.swift in Sources */,
+				0D6F09F62B00ADB100373788 /* HealthKit.swift in Sources */,
+				0DB1FFF42B0062E300CCF0DE /* Structs.swift in Sources */,
+				0D66DE072B000BED00A02B4D /* TaskManagerController.swift in Sources */,
+				0DB1FFF62B00647F00CCF0DE /* NotificationController.swift in Sources */,
+				0D49D4252B003B51006AE7CC /* MainViewController.swift in Sources */,
+				0DACD9E12B004BF500EC2F71 /* Memories.swift in Sources */,
+				0DE76AC42B0013CB0076058F /* LocationManagerController.swift in Sources */,
+				0D66DDEF2B0000BD00A02B4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D66DDF22B0000BD00A02B4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D66DDF32B0000BD00A02B4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D66DDFA2B0000BE00A02B4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D66DDFB2B0000BE00A02B4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D66DDFE2B0000BE00A02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D66DDFF2B0000BE00A02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D66DE012B0000BE00A02B4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeuraCare/NeuraCare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VA2ZBQ5BRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuraCare/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need Loc pls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In use app loc";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaj.NeuraCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D66DE022B0000BE00A02B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeuraCare/NeuraCare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VA2ZBQ5BRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuraCare/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need Loc pls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In use app loc";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaj.NeuraCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D66DDE42B0000BD00A02B4D /* Build configuration list for PBXProject "NeuraCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D66DDFE2B0000BE00A02B4D /* Debug */,
+				0D66DDFF2B0000BE00A02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D66DE002B0000BE00A02B4D /* Build configuration list for PBXNativeTarget "NeuraCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D66DE012B0000BE00A02B4D /* Debug */,
+				0D66DE022B0000BE00A02B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D66DDF52B0000BD00A02B4D /* NeuraCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D66DDF62B0000BD00A02B4D /* NeuraCare.xcdatamodel */,
+			);
+			currentVersion = 0D66DDF62B0000BD00A02B4D /* NeuraCare.xcdatamodel */;
+			path = NeuraCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0D66DDE12B0000BD00A02B4D /* Project object */;
+}
