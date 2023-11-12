@@ -13,7 +13,7 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         
         self.selectedIndex = 1
-
+        self.tabBar.unselectedItemTintColor = UIColor.systemGray
         // Do any additional setup after loading the view.
     }
     

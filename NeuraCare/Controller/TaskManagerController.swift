@@ -11,6 +11,8 @@ import Speech
 
 class TaskManagerController: UIViewController,SFSpeechRecognizerDelegate {
 
+    @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var micImage: UIImageView!
     @IBOutlet weak var RecordButton: UIButton!
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
@@ -108,17 +110,32 @@ class TaskManagerController: UIViewController,SFSpeechRecognizerDelegate {
     
     @IBAction func StartRec(_ sender: Any) {
         
+       // let unselectedImage = UIImage(named: <#T##String#>)
+        
         if isRecording == false{
             startSpeechRecognition()
             print("Recognition started")
             isRecording = true
-            RecordButton.backgroundColor = .blue
+            
+            UIView.animate(withDuration: 0.1) {
+                self.micImage.image = UIImage(named: "micSelected") // Example: Change button opacity
+                    // Other animatable changes...
+                }
+            statusLabel.text = "Stop Listening"
+            
         } else{
             stopSpeechRecognition()
             print("Recognition stopped")
             isRecording = false
             sendData()
-            RecordButton.backgroundColor = .lightGray
+            UIView.animate(withDuration: 0.1) {
+                self.micImage.image = UIImage(named: "micUnselected")
+            }
+            
+            
+            statusLabel.text = "Start Listening"
+            
+            
         }
         
     }

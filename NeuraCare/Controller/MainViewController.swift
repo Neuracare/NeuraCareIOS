@@ -10,6 +10,11 @@ import HealthKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var caregiver: UIImageView!
+    @IBOutlet weak var bucketList: UIImageView!
+    @IBOutlet weak var memoryLane: UIImageView!
+    @IBOutlet weak var emergency: UIImageView!
+    @IBOutlet weak var medications: UIImageView!
     @IBOutlet weak var reminderButton: UIButton!
     @IBOutlet weak var helpButton: UIButton!
     @IBOutlet weak var journalButton: UIButton!
@@ -27,7 +32,11 @@ class MainViewController: UIViewController {
         
         
         super.viewDidLoad()
-        
+        caregiver.layer.cornerRadius = 20
+        bucketList.layer.cornerRadius = 20
+        memoryLane.layer.cornerRadius = 20
+        emergency.layer.cornerRadius = 20
+        medications.layer.cornerRadius = 20
         reminderButton.layer.cornerRadius = 20
         helpButton.layer.cornerRadius = 20
         journalButton.layer.cornerRadius = 20
@@ -105,4 +114,8 @@ class MainViewController: UIViewController {
         
     }
     
+    @IBAction func caregiverPortal(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(identifier: "HelpPageController") as! HelpPageController
+        present(vc, animated: true)
+    }
 }
